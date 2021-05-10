@@ -1,0 +1,97 @@
+#landing {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+#landing .text-container {
+  padding: 1.5rem;
+}
+
+#landing #landing-image {
+  width: 100%;
+  height: 100%;
+}
+
+#landing .text-container .title {
+  font-size: 3.35rem;
+  margin-bottom: 2.5rem;
+}
+
+#landing .button {
+  border-radius: 8px;
+}
+
+#landing .button:hover {
+  border-radius: 8px;
+  filter: brightness(115%);
+}
+
+
+@media screen and (max-width: 900px) {
+  #landing {
+    text-align: center;
+  }
+  #landing #landing-image {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  #landing .text-container {
+    padding: 1rem;
+  }
+  #landing .text-container .title {
+    font-size: 3rem;
+  }
+}
+
+
+.box{
+  /* border: 2px solid black;  */
+  width: 250px;
+  text-align: center;
+  height: 400px;
+}
+.box img{
+  width: 150px;
+}
+.box_img2 img{
+  width: 150px;
+}
+.box h2{
+  margin: 5px 0;
+}
+.works .cont{
+  width: 50%;
+  height: 400px;
+  margin:10px 10%; border: 0px solid black;position: relative;
+}
+.works h1{
+  position: absolute;top: 100px;left: 20px;
+}
+.works p{
+  position: absolute;bottom: 100px;width: 300px; margin: 6%;
+}
+.imgbx img{
+  width: 370px;float:right;
+}
+.cont2{
+  width: 50%;height: 400px;margin:0px 40%; border: 0px solid black;position: relative;
+}
+.cont2 p{
+  position: absolute;bottom: 100px;width: 300px; margin: 6%; 
+}
+.cont2 h1{
+  position: absolute;top: 100px;left: 20px;
+}
+.build video{
+  width: 80%;
+  
+}
+/* .build .row{
+border: 2px solid black;
+} */
+.build h2{
+  margin-top: 40%;
+}
